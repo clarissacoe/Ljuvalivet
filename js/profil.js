@@ -3,7 +3,7 @@ function buildMenu()
     var links = [
         ["⚙️", "inställningar.html"], 
         ["👤", "profil.html"], 
-        ["🌙", "index.html"], 
+        ["🌙", "profil1.html"], 
         ["💬", "chat.html"]
     ]
 
