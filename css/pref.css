@@ -158,19 +158,3 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
-
-.swipe{
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-}
-
-.vänster{
-    font-size: 100px;
-    padding-left: 100px;
-}
-
-.höger{
-    font-size: 100px;
-    padding-right: 1050px;
-}
