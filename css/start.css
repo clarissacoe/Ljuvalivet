@@ -1,0 +1,177 @@
+
+.myflexbox {
+    display:flex;
+    flex-direction: row;
+}
+
+.myflexbox div {
+    color: black;
+    background-color: #2B2D42;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: peru;
+}
+
+.ett {
+    width: 1500px;
+    height: 10px;
+}
+
+.myflexbox2 {
+    display:flex;
+    flex-direction: row;
+}
+
+.myflexbox2 div {
+    color: azure;
+    background-color: #DECCCC;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: peru;
+}
+
+.två {
+    width: 1500px;
+    height: 25px;
+}
+
+.myflexbox3 {
+    display:flex;
+    flex-direction: row;
+}
+
+.myflexbox3 div {
+    color: black;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #DECCCC;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: peru;
+}
+
+.tre {
+    width: 1500px;
+    height: 75px;
+}
+
+.myflexbox4 {
+    display:flex;
+    flex-direction: row;
+}
+
+.myflexbox4 div {
+    color: azure;
+    background-color: #DECCCC;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: peru;
+}
+
+.fyra {
+    width: 1500px;
+    height: 140px;
+}
+
+.myflexbox5 {
+    display:flex;
+    flex-direction: row;
+}
+
+.myflexbox5 div {
+    color: azure;
+    background-color: #2B2D42;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: peru;
+}
+
+.fem {
+    width: 1500px;
+    height: 10px;
+}
+
+.logo {
+    height: 150px;
+    padding-right: 1200px;
+
+}
+
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 20px;
+    flex-basis: 100vw;
+    background-color:#DECCCC;
+    border: 5px solid #2B2D42
+}
+
+li a {
+    color:#2B2D42;
+    font-size: large;
+    padding: 8px 16px;
+    text-decoration: none;
+    display:inline;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    height: 30px;
+    
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #cfd1dd;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.315);
+    color: rgba(0, 0, 0, 0.693);
+    border-radius: 10px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width:950px;
+    height:80px;
+    clear:both;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'BenchNine', sans-serif;
+    color: #000000;
+    font-size: 110%;
+}
+
+:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.swipe{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.vänster{
+    font-size: 100px;
+    padding-left: 100px;
+}
+
+.höger{
+    font-size: 100px;
+    padding-right: 1050px;
+}
